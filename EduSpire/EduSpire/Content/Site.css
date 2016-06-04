@@ -1,0 +1,278 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Raleway|Montserrat);
+
+/*Google Fonts*/
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v10/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v10/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*Main*/
+
+body {
+    text-align: center;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url('background.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url('background.jpg');
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url('background.jpg');
+    background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0)), url('background.jpg');
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-family: Montserrat, Raleway, Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+}
+
+p {
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1.75em !important;
+}
+
+#footer {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+a:focus, a:hover, a:target {    
+    outline: none;
+    text-decoration: underline;
+}
+
+.jumbotron {
+    color: grey;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    padding: .25em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0em !important;
+    width: 100% !important;
+}
+
+.body-content {
+    background-color: transparent !important;
+}
+
+.row {
+    margin: 0em;
+}
+
+#takeQuizButton {
+    border: .2em solid white;
+    border-radius: .2em;
+    background-color: rgb(231, 76, 60);
+    color: white;
+}
+
+#takeQuizButton:hover, #takeQuizButton:focus, takeQuizButton:target {
+    border: .2em solid white;
+    border-radius: .2em;
+    background-color: #e3301c;
+    color: white;
+}
+
+/*Navbar*/
+
+.navbar {
+    background-color: white !important;
+    font-family: Montserrat, Raleway, Arial, Helvetica, sans-serif;
+    border: none !important;
+    margin-bottom: 0em !important;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+.navbar-brand {
+    color: royalblue !important;
+}
+
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:target {
+    color: blue !important;
+}
+
+.nav li a {
+    color: dodgerblue !important;
+    margin-bottom: 0em !important;
+}
+
+.nav li a:hover, .nav li a:focus, .nav li a:target {
+    color: deepskyblue !important;
+}
+
+/*Index*/
+
+#mainIndexSection {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+/*Quiz*/
+
+#takeQuizSection {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+#quizSubmitButton {
+    border: .2em solid rgb(231, 76, 60);
+    border-radius: .2em;
+    background-color: white;
+    color: rgb(231, 76, 60);
+}
+
+#quizSubmitButton:hover, #quizSubmitButton:focus, #quizSubmitButton:target {
+    border: .2em solid rgb(231, 76, 60);
+    border-radius: .2em;
+    background-color: rgb(231, 76, 60);
+    color: white;
+}
+
+/*Quiz Modal*/
+
+#quizModal .form-group {
+    text-align: left;
+}
+
+#quizModal label {
+    font-size: 1.25em;
+    color: rgb(44, 62, 80);
+}
+
+#quizModal select{
+    margin-bottom: .5em;
+    border: .1em solid rgb(231, 76, 60);
+    border-radius: .25em;
+    padding: .1em;
+}
+
+/*Page Styles*/
+
+.graphic {
+    max-width: 75% !important;
+    height: auto;
+}
+
+.topSection {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.topSection p {
+    margin-bottom: 1em;
+}
+
+.mainSection{
+    background-color: rgb(231, 76, 60); /*Flat Red*/
+    color: white !important;
+}
+
+.storiesSection{
+    background-color: white !important;
+    color: rgb(44, 62, 80) !important; /*Flat Dark Blue*/
+}
+
+.resourcesSection {
+    background-color: rgb(42, 187, 103) !important; /*Flat Green*/
+    color: white;
+}
+
+.resourcesSection a {
+    color: white;
+}
+
+/*About*/
+
+#topAboutSection {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+#contactAboutSection {
+    background-color: white;
+    color: rgb(44, 62, 80); /*Flat Dark Blue*/
+}
+
+/*High School*/
+#mainHighSchoolSection {
+    background-color: rgb(231, 76, 60); /*Flat Red*/
+}
+
+
+/*College*/
+#mainCollegeSection {
+    background-color: rgb(26, 188, 156); /*Flat Turquoise*/
+}
+
+
+/*Graduate School*/
+#mainGraduateSection {
+    background-color: rgb(41, 128, 185); /*Flat Light Blue*/
+}
+
+
+/*Technical College*/
+#mainTechnicalSection {
+    background-color: rgb(230, 126, 34); /*Flat Orange*/
+}
+
+
+/*Educators*/
+#mainEducatorsSection {
+    background-color: rgb(142, 68, 173); /*Flat Purple*/
+}
+
+#mainEducatorsSection img {
+    max-width: 100%;
+}

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+}
+
+<div id="errorPage">
+    <div id="mainErrorSection" class="jumbotron mainSection">
+        <h2>Oops! Cannot Find That Page!</h2>
+
+        <button class="btn btn-lg btn-primary" onclick="goToStart()">Go To Start</button>
+    </div>
+</div>
+
+<script>
+    function goToStart() {
+        window.location.href = "@Url.Action("Index", "Home")";
+    }
+</script>

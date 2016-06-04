@@ -1,0 +1,307 @@
+﻿<div id="quizModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Education Quiz</h2>
+                <h3>Answer some questions to see what education opportunities we recommend for you!</h3>
+            </div>
+
+            <div class="modal-body">
+                <form id="quizForm">
+                    <div class="form-group">
+                        <label for="quizQuestion1">
+                            What level of schooling are you most unsure if you will complete or not?
+                        </label>
+
+                        <select id="quizQuestion1" name="quizQuestion1">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                High School
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                College
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                Graduate School
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                I plan to complete all of these
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion2">
+                            Which of these is most important to you?
+                        </label>
+
+                        <select id="quizQuestion2" name="quizQuestion2">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                Finding a full time job as quickly as possible
+                            </option>
+                            <option data-education="0;0;0;1" data-hs="0" data-college="0" data-graduate="0" data-technical="1">
+                                Finding a steady job in an affordable manner
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                Finding a job that pays well
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                Learning as much as I can and then getting a good job
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion3">
+                            How do you feel about the affordability of your education?
+                        </label>
+
+                        <select id="quizQuestion3" name="quizQuestion3">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                I cannot afford to spend any money on it right now
+                            </option>
+                            <option data-education="0;0;0;1" data-hs="0" data-college="0" data-graduate="0" data-technical="1">
+                                College seems too expensive, I want something different
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                I will work hard to lower the price of a good education
+                            </option>
+                            <option data-education="0;1;1;0" data-hs="0" data-college="1" data-graduate="1" data-technical="0">
+                                My education comes first, money second
+                            </option>
+                            <option data-education="0;1;1;0" data-hs="0" data-college="1" data-graduate="1" data-technical="0">
+                                Money is not an issue
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion4">
+                            How do you see yourself living in the future?
+                        </label>
+
+                        <select id="quizQuestion4" name="quizQuestion4">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                I can see myself simply getting by, as long as I am happy
+                            </option>
+                            <option data-education="0;0;0;1" data-hs="0" data-college="0" data-graduate="0" data-technical="1">
+                                Following my own path and working hard to improve myself
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                Improving my situation based on skills I have picked up
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                Immersing myself in learning and life, discovering and creating
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion5">
+                            How do you feel about school?
+                        </label>
+
+                        <select id="quizQuestion5" name="quizQuestion5">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                I just can't wait to get out of it
+                            </option>
+                            <option data-education="0;0;0;1" data-hs="0" data-college="0" data-graduate="0" data-technical="1">
+                                Traditional school isn't really for me
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                I like school and it will help me find a job
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                It's fun, I could spend my life learning new things
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion6">
+                            What kind of job are you interested in?
+                        </label>
+
+                        <select id="quizQuestion6" name="quizQuestion6">
+                            <option data-education="1;0;0;0" data-hs="1" data-college="0" data-graduate="0" data-technical="0">
+                                Anything will do, as long as I have one
+                            </option>
+                            <option data-education="0;0;0;1" data-hs="0" data-college="0" data-graduate="0" data-technical="1">
+                                I want to do something hands on
+                            </option>
+                            <option data-education="0;1;0;0" data-hs="0" data-college="1" data-graduate="0" data-technical="0">
+                                I want to do something relevant to my interests
+                            </option>
+                            <option data-education="0;0;1;0" data-hs="0" data-college="0" data-graduate="1" data-technical="0">
+                                I want to become the expert on something
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion7">
+                            Which is most important to you?
+                        </label>
+
+                        <select id="quizQuestion7" name="quizQuestion7">
+                            <option data-education="1;0;0;1" data-hs="1" data-college="0" data-graduate="0" data-technical="1">
+                                Freedom
+                            </option>
+                            <option data-education="0;1;0;1" data-hs="0" data-college="1" data-graduate="0" data-technical="1">
+                                Family
+                            </option>
+                            <option data-education="0;1;1;1" data-hs="0" data-college="1" data-graduate="1" data-technical="1">
+                                Wealth
+                            </option>
+                            <option data-education="0;1;1;0" data-hs="0" data-college="1" data-graduate="1" data-technical="0">
+                                Discovery
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion8">
+                            How are your grades?
+                        </label>
+
+                        <select id="quizQuestion8" name="quizQuestion8">
+                            <option data-education="1;0;0;1" data-hs="1" data-college="0" data-graduate="0" data-technical="1">
+                                Pretty low
+                            </option>
+                            <option data-education="0;1;0;1" data-hs="0" data-college="1" data-graduate="0" data-technical="1">
+                                Average
+                            </option>
+                            <option data-education="0;1;1;0" data-hs="0" data-college="1" data-graduate="1" data-technical="0">
+                                Pretty high
+                            </option>
+                            <option data-education="1;1;0;1" data-hs="1" data-college="1" data-graduate="0" data-technical="1">
+                                Low but improving
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion9">
+                            Who do you see yourself living with at twenty seven?
+                        </label>
+
+                        <select id="quizQuestion9" name="quizQuestion9">
+                            <option data-education="0;1;1;1" data-hs="0" data-college="1" data-graduate="1" data-technical="1">
+                                By myself
+                            </option>
+                            <option data-education="1;1;1;1" data-hs="1" data-college="1" data-graduate="1" data-technical="1">
+                                With my friends or significant other
+                            </option>
+                            <option data-education="1;0;1;0" data-hs="1" data-college="0" data-graduate="1" data-technical="0">
+                                With my parents
+                            </option>
+                            <option data-education="0;1;0;1" data-hs="0" data-college="1" data-graduate="0" data-technical="1">
+                                With a family of my own
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quizQuestion10">
+                            Which of these would you like more information about?
+                        </label>
+
+                        <select id="quizQuestion10" name="quizQuestion10">
+                            <option data-education="2;0;0;0" data-hs="2" data-college="0" data-graduate="0" data-technical="0">
+                                High School Diploma
+                            </option>
+                            <option data-education="0;0;0;2" data-hs="0" data-college="0" data-graduate="0" data-technical="2">
+                                Technical/Trade School
+                            </option>
+                            <option data-education="0;2;0;0" data-hs="0" data-college="2" data-graduate="0" data-technical="0">
+                                College
+                            </option>
+                            <option data-education="0;0;2;0" data-hs="0" data-college="0" data-graduate="2" data-technical="0">
+                                Graduate School
+                            </option>
+                        </select>
+                    </div>
+
+                    <button id="quizSubmitButton" class="btn btn-lg btn-primary">Submit!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="resultsModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Your Results!</h2>
+            </div>
+
+            <div class="modal-body">
+                <h3 id="highSchoolResults">High School Results: </h3>
+                <h3 id="collegeResults">College Results: </h3>
+                <h3 id="graduateResults">Graduate School Results: </h3>
+                <h3 id="technicalSchoolResults">Technical School Results: </h3>
+
+                <button id="resultsGoToButton" class="btn btn-lg btn-primary" data-link="/Home/HighSchool">Go To The High School Section!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("#quizSubmitButton").click(function (e) {
+        e.preventDefault();
+
+        parseForm();
+    });
+
+    $("#resultsGoToButton").click(function () {
+        window.location.href = document.getElementById('resultsGoToButton').getAttribute("data-link");
+    });
+
+    function parseForm() {
+        var highSchool = Number(0);
+        var college = Number(0);
+        var graduate = Number(0);
+        var technical = Number(0);
+
+        var elem = document.getElementById('quizForm').elements;
+
+        for (var i = 0; i < elem.length - 1; i++) {
+            var index = elem[i].selectedIndex;
+
+            var edu = (elem[i].options[index].getAttribute("data-education")).split(";");
+
+            highSchool += Number(edu[0]);
+            college += Number(edu[1]);
+            graduate += Number(edu[2]);
+            technical += Number(edu[3]);
+        }
+        
+        var max = Math.max(highSchool, college, graduate, technical);
+
+        if (max === highSchool) {
+            $("#resultsGoToButton").text("Go To The High School Section!");
+            document.getElementById('resultsGoToButton').setAttribute("data-link", "/Home/HighSchool");
+        }
+        else if (max === college) {
+            $("#resultsGoToButton").text("Go To The College Section!");
+            document.getElementById('resultsGoToButton').setAttribute("data-link", "/Home/College");
+        }
+        else if (max === graduate) {
+            $("#resultsGoToButton").text("Go To The Graduate School Section!");
+            document.getElementById('resultsGoToButton').setAttribute("data-link", "/Home/GraduateSchool");
+        }
+        else {
+            $("#resultsGoToButton").text("Go To The Technical College Section!");
+            document.getElementById('resultsGoToButton').setAttribute("data-link", "/Home/TechnicalCollege");
+        }
+
+        $("#highSchoolResults").text("High School Results: " + highSchool);
+        $("#collegeResults").text("College Results: " + college);
+        $("#graduateResults").text("Graduate School Results: " + graduate);
+        $("#technicalSchoolResults").text("Technical School Results: " + technical);
+
+        $("#quizModal").modal('hide');
+        $("#resultsModal").modal('show');
+    };
+</script>

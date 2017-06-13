@@ -4,4 +4,4 @@ An informational web app that provides resources about educational opportunities
 
 View at [http://eduspire.azurewebsites.net/](http://eduspire.azurewebsites.net/)
 
-![home](imgs/eduspire.jpg)
+![home](img/eduspire.jpg)
